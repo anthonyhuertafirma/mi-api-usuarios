@@ -1,12 +1,18 @@
 {
   "name": "mi-api-usuarios",
   "version": "1.0.0",
+  "description": "API de usuarios con arquitectura limpia",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
